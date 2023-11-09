@@ -1,0 +1,59 @@
+/* Reset CSS to avoid default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Center the main content */
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  /* Style the image */
+  img {
+    max-width: 100px; /* Example size, adjust as needed */
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form elements */
+  input[type="text"],
+  input[type="password"] {
+    width: 30%; /* Adjust width as needed */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the button */
+  button#register {
+    padding: 10px 20px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button#register:hover {
+    background-color: #0056b3; /* Darken color on hover */
+  }
+  
+  /* Add some space at the top */
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
