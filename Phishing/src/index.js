@@ -37,6 +37,6 @@ function registerUser() {
         Password: password
     })
     .then(() => {
-        window.location.href = 'lolGoober.html';
+        window.location.href = '/Phishing/dist/lolGoober.html';
     })
 }
